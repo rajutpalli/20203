@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ASCII"?>
+<systemproject:SystemProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" xmlns:systemproject="http://www.xilinx.com/systemproject" name="golden_project_sdk_system" platform="/scratch/workspacegit3/vck190/export/vck190/vck190.xpfm" platformUID="xilinx:vck190_es::0.0(custom)" sysConfig="vck190" runtime="cpp" rootFSLocation="" linuxImage="" sysroot="">
+  <configuration name="Debug" id="com.xilinx.sdx.system.managedbuilder.debugConfiguration.1478403307">
+    <configBuildOptions xsi:type="systemproject:SystemOptions">
+      <applications name="golden_project_sdk" domainName="standalone_psv_cortexa72_0" domainPrettyName="standalone_psv_cortexa72_0" appBuildConfig="Debug"/>
+      <options xsi:type="sdkproject:SdkOptions" generateSdCard="true"/>
+    </configBuildOptions>
+    <lastBuildOptions xsi:type="systemproject:SystemOptions">
+      <applications name="golden_project_sdk" domainName="standalone_psv_cortexa72_0" domainPrettyName="standalone_psv_cortexa72_0" appBuildConfig="Debug"/>
+      <options xsi:type="sdkproject:SdkOptions" generateSdCard="true"/>
+    </lastBuildOptions>
+  </configuration>
+  <configuration name="Release" id="com.xilinx.sdx.system.managedbuilder.releaseConfiguration.1694214576">
+    <configBuildOptions xsi:type="systemproject:SystemOptions">
+      <applications name="golden_project_sdk" domainName="standalone_psv_cortexa72_0" domainPrettyName="standalone_psv_cortexa72_0" appBuildConfig="Release"/>
+      <options xsi:type="sdkproject:SdkOptions" generateSdCard="true"/>
+    </configBuildOptions>
+  </configuration>
+</systemproject:SystemProject>

@@ -1,0 +1,371 @@
+2020-12-04T09:59:59.72442100255-09:59:59 **** Build of project vck190 ****
+000-buildplatform.sh 45642 vck190  
+000-XSDB Server Channel: tcfchan#1
+000-Building the BSP Library for domain  - standalone_psv_cortexa72_0 on processor psv_cortexa72_0
+000-make --no-print-directory seq_libs
+000-
+000-Finished building libraries sequentially.
+000-
+000-make -j --no-print-directory par_libs
+000-
+000-Running Make include in psv_cortexa72_0/libsrc/gpiops_v3_8/src
+000-
+000-make -C psv_cortexa72_0/libsrc/gpiops_v3_8/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ASSEMBLER=aarch64-n
+000-one-elf-as" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Dversal -DARMA72_E
+000-L3"
+000-
+000-Running Make include in psv_cortexa72_0/libsrc/coresightps_dcc_v1_8/src
+000-
+000-Running Make include in psv_cortexa72_0/libsrc/emacps_v3_12/src
+000-
+000-Running Make include in psv_cortexa72_0/libsrc/canfd_v2_4/src
+000-
+000-Running Make include in psv_cortexa72_0/libsrc/ttcps_v3_12/src
+000-
+000-Running Make include in psv_cortexa72_0/libsrc/standalone_v7_3/src
+000-
+000-make -C psv_cortexa72_0/libsrc/coresightps_dcc_v1_8/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ASSEMBLER=
+000-aarch64-none-elf-as" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Dversal -
+000-DARMA72_EL3"
+000-
+000-make -C psv_cortexa72_0/libsrc/standalone_v7_3/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ASSEMBLER=aarch
+000-64-none-elf-as" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Dversal -DARMA
+000-72_EL3"
+000-
+000-make -C psv_cortexa72_0/libsrc/emacps_v3_12/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ASSEMBLER=aarch64-
+000-none-elf-as" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Dversal -DARMA72_
+000-EL3"
+000-
+000-make -C psv_cortexa72_0/libsrc/ttcps_v3_12/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ASSEMBLER=aarch64-n
+000-one-elf-as" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Dversal -DARMA72_E
+000-L3"
+000-
+000-make -C psv_cortexa72_0/libsrc/canfd_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ASSEMBLER=aarch64-no
+000-ne-elf-as" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Dversal -DARMA72_EL
+000-3"
+000-
+000-Running Make include in psv_cortexa72_0/libsrc/uartlite_v3_5/src
+000-
+000-make -C psv_cortexa72_0/libsrc/uartlite_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ASSEMBLER=aarch64
+000--none-elf-as" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Dversal -DARMA72
+000-_EL3"
+000-
+000-Running Make include in psv_cortexa72_0/libsrc/cpu_cortexa72_v1_2/src
+000-
+000-make -C psv_cortexa72_0/libsrc/cpu_cortexa72_v1_2/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ASSEMBLER=aa
+000-rch64-none-elf-as" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Dversal -DA
+000-RMA72_EL3"
+000-
+000-Running Make include in psv_cortexa72_0/libsrc/ddrpsv_v1_3/src
+000-
+000-make -C psv_cortexa72_0/libsrc/ddrpsv_v1_3/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ASSEMBLER=aarch64-n
+000-one-elf-as" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Dversal -DARMA72_E
+000-L3"
+000-
+000-Running Make include in psv_cortexa72_0/libsrc/iicps_v3_12/src
+000-
+000-Running Make include in psv_cortexa72_0/libsrc/rtcpsu_v1_10/src
+000-
+000-make -C psv_cortexa72_0/libsrc/iicps_v3_12/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ASSEMBLER=aarch64-n
+000-one-elf-as" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Dversal -DARMA72_E
+000-L3"
+000-
+000-make -C psv_cortexa72_0/libsrc/rtcpsu_v1_10/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ASSEMBLER=aarch64-
+000-none-elf-as" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Dversal -DARMA72_
+000-EL3"
+000-
+000-Running Make include in psv_cortexa72_0/libsrc/zdma_v1_10/src
+000-
+000-make -C psv_cortexa72_0/libsrc/zdma_v1_10/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ASSEMBLER=aarch64-no
+000-ne-elf-as" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Dversal -DARMA72_EL
+000-3"
+000-
+000-Running Make include in psv_cortexa72_0/libsrc/cfupmc_v1_2/src
+000-
+000-make -C psv_cortexa72_0/libsrc/cfupmc_v1_2/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ASSEMBLER=aarch64-n
+000-one-elf-as" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Dversal -DARMA72_E
+000-L3"
+000-
+000-Running Make include in psv_cortexa72_0/libsrc/cframe_v1_2/src
+000-
+000-make -C psv_cortexa72_0/libsrc/cframe_v1_2/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ASSEMBLER=aarch64-n
+000-one-elf-as" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Dversal -DARMA72_E
+000-L3"
+000-
+000-Running Make include in psv_cortexa72_0/libsrc/pmonpsv_v2_1/src
+000-
+000-Running Make include in psv_cortexa72_0/libsrc/qspipsu_v1_12/src
+000-
+000-make -C psv_cortexa72_0/libsrc/pmonpsv_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ASSEMBLER=aarch64-
+000-none-elf-as" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Dversal -DARMA72_
+000-EL3"
+000-
+000-make -C psv_cortexa72_0/libsrc/qspipsu_v1_12/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ASSEMBLER=aarch64
+000--none-elf-as" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Dversal -DARMA72
+000-_EL3"
+000-
+000-Running Make include in psv_cortexa72_0/libsrc/sdps_v3_10/src
+000-
+000-make -C psv_cortexa72_0/libsrc/sdps_v3_10/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ASSEMBLER=aarch64-no
+000-ne-elf-as" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Dversal -DARMA72_EL
+000-3"
+000-
+000-Running Make include in psv_cortexa72_0/libsrc/sysmonpsv_v2_0/src
+000-
+000-make -C psv_cortexa72_0/libsrc/sysmonpsv_v2_0/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ASSEMBLER=aarch6
+000-4-none-elf-as" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Dversal -DARMA7
+000-2_EL3"
+000-
+000-Running Make include in psv_cortexa72_0/libsrc/usbpsu_v1_8/src
+000-
+000-make -C psv_cortexa72_0/libsrc/usbpsu_v1_8/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ASSEMBLER=aarch64-n
+000-one-elf-as" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Dversal -DARMA72_E
+000-L3"
+000-
+000-Running Make include in psv_cortexa72_0/libsrc/uartpsv_v1_3/src
+000-
+000-make -C psv_cortexa72_0/libsrc/uartpsv_v1_3/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ASSEMBLER=aarch64-
+000-none-elf-as" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Dversal -DARMA72_
+000-EL3"
+000-
+000-Running Make include in psv_cortexa72_0/libsrc/scugic_v4_3/src
+000-
+000-make -C psv_cortexa72_0/libsrc/scugic_v4_3/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ASSEMBLER=aarch64-n
+000-one-elf-as" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Dversal -DARMA72_E
+000-L3"
+000-
+000-Running Make include in psv_cortexa72_0/libsrc/csudma_v1_7/src
+000-
+000-Running Make include in psv_cortexa72_0/libsrc/ipipsu_v2_7/src
+000-
+000-make -C psv_cortexa72_0/libsrc/csudma_v1_7/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ASSEMBLER=aarch64-n
+000-one-elf-as" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Dversal -DARMA72_E
+000-L3"
+000-
+000-make -C psv_cortexa72_0/libsrc/ipipsu_v2_7/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ASSEMBLER=aarch64-n
+000-one-elf-as" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Dversal -DARMA72_E
+000-L3"
+000-
+000-Running Make libs in psv_cortexa72_0/libsrc/gpiops_v3_8/src
+000-
+000-Running Make libs in psv_cortexa72_0/libsrc/standalone_v7_3/src
+000-
+000-Running Make libs in psv_cortexa72_0/libsrc/emacps_v3_12/src
+000-
+000-make -C psv_cortexa72_0/libsrc/gpiops_v3_8/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ASSEMBLER=aarch64-none
+000--elf-as" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Dversal -DARMA72_EL3"
+000-
+000-
+000-Running Make libs in psv_cortexa72_0/libsrc/coresightps_dcc_v1_8/src
+000-
+000-make -C psv_cortexa72_0/libsrc/coresightps_dcc_v1_8/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ASSEMBLER=aar
+000-ch64-none-elf-as" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Dversal -DAR
+000-MA72_EL3"
+000-
+000-make -C psv_cortexa72_0/libsrc/standalone_v7_3/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ASSEMBLER=aarch64-
+000-none-elf-as" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Dversal -DARMA72_
+000-EL3"
+000-
+000-make -C psv_cortexa72_0/libsrc/emacps_v3_12/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ASSEMBLER=aarch64-non
+000-e-elf-as" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Dversal -DARMA72_EL3
+000-"
+000-
+000-Running Make libs in psv_cortexa72_0/libsrc/ttcps_v3_12/src
+000-
+000-make -C psv_cortexa72_0/libsrc/ttcps_v3_12/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ASSEMBLER=aarch64-none
+000--elf-as" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Dversal -DARMA72_EL3"
+000-
+000-
+000-Running Make libs in psv_cortexa72_0/libsrc/canfd_v2_4/src
+000-
+000-make -C psv_cortexa72_0/libsrc/canfd_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ASSEMBLER=aarch64-none-
+000-elf-as" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Dversal -DARMA72_EL3"
+000-
+000-Running Make libs in psv_cortexa72_0/libsrc/uartlite_v3_5/src
+000-
+000-make -C psv_cortexa72_0/libsrc/uartlite_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ASSEMBLER=aarch64-no
+000-ne-elf-as" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Dversal -DARMA72_EL
+000-3"
+000-
+000-Running Make libs in psv_cortexa72_0/libsrc/cpu_cortexa72_v1_2/src
+000-
+000-make -C psv_cortexa72_0/libsrc/cpu_cortexa72_v1_2/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ASSEMBLER=aarch
+000-64-none-elf-as" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Dversal -DARMA
+000-72_EL3"
+000-
+000-Running Make libs in psv_cortexa72_0/libsrc/ddrpsv_v1_3/src
+000-
+000-make -C psv_cortexa72_0/libsrc/ddrpsv_v1_3/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ASSEMBLER=aarch64-none
+000--elf-as" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Dversal -DARMA72_EL3"
+000-
+000-
+000-Running Make libs in psv_cortexa72_0/libsrc/iicps_v3_12/src
+000-
+000-make -C psv_cortexa72_0/libsrc/iicps_v3_12/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ASSEMBLER=aarch64-none
+000--elf-as" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Dversal -DARMA72_EL3"
+000-
+000-
+000-Running Make libs in psv_cortexa72_0/libsrc/rtcpsu_v1_10/src
+000-
+000-make -C psv_cortexa72_0/libsrc/rtcpsu_v1_10/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ASSEMBLER=aarch64-non
+000-e-elf-as" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Dversal -DARMA72_EL3
+000-"
+000-
+000-Running Make libs in psv_cortexa72_0/libsrc/zdma_v1_10/src
+000-
+000-make -C psv_cortexa72_0/libsrc/zdma_v1_10/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ASSEMBLER=aarch64-none-
+000-elf-as" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Dversal -DARMA72_EL3"
+000-
+000-Running Make libs in psv_cortexa72_0/libsrc/cfupmc_v1_2/src
+000-
+000-make -C psv_cortexa72_0/libsrc/cfupmc_v1_2/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ASSEMBLER=aarch64-none
+000--elf-as" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Dversal -DARMA72_EL3"
+000-
+000-
+000-Running Make libs in psv_cortexa72_0/libsrc/cframe_v1_2/src
+000-
+000-make -C psv_cortexa72_0/libsrc/cframe_v1_2/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ASSEMBLER=aarch64-none
+000--elf-as" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Dversal -DARMA72_EL3"
+000-
+000-
+000-Running Make libs in psv_cortexa72_0/libsrc/pmonpsv_v2_1/src
+000-
+000-make -C psv_cortexa72_0/libsrc/pmonpsv_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ASSEMBLER=aarch64-non
+000-e-elf-as" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Dversal -DARMA72_EL3
+000-"
+000-
+000-Running Make libs in psv_cortexa72_0/libsrc/qspipsu_v1_12/src
+000-
+000-make -C psv_cortexa72_0/libsrc/qspipsu_v1_12/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ASSEMBLER=aarch64-no
+000-ne-elf-as" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Dversal -DARMA72_EL
+000-3"
+000-
+000-Running Make libs in psv_cortexa72_0/libsrc/sdps_v3_10/src
+000-
+000-Running Make libs in psv_cortexa72_0/libsrc/sysmonpsv_v2_0/src
+000-
+000-make -C psv_cortexa72_0/libsrc/sdps_v3_10/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ASSEMBLER=aarch64-none-
+000-elf-as" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Dversal -DARMA72_EL3"
+000-
+000-make -C psv_cortexa72_0/libsrc/sysmonpsv_v2_0/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ASSEMBLER=aarch64-n
+000-one-elf-as" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Dversal -DARMA72_E
+000-L3"
+000-
+000-Running Make libs in psv_cortexa72_0/libsrc/usbpsu_v1_8/src
+000-
+000-make -C psv_cortexa72_0/libsrc/usbpsu_v1_8/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ASSEMBLER=aarch64-none
+000--elf-as" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Dversal -DARMA72_EL3"
+000-
+000-
+000-Running Make libs in psv_cortexa72_0/libsrc/uartpsv_v1_3/src
+000-
+000-make -C psv_cortexa72_0/libsrc/uartpsv_v1_3/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ASSEMBLER=aarch64-non
+000-e-elf-as" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Dversal -DARMA72_EL3
+000-"
+000-
+000-Running Make libs in psv_cortexa72_0/libsrc/scugic_v4_3/src
+000-
+000-make -C psv_cortexa72_0/libsrc/scugic_v4_3/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ASSEMBLER=aarch64-none
+000--elf-as" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Dversal -DARMA72_EL3"
+000-
+000-
+000-Running Make libs in psv_cortexa72_0/libsrc/csudma_v1_7/src
+000-
+000-make -C psv_cortexa72_0/libsrc/csudma_v1_7/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ASSEMBLER=aarch64-none
+000--elf-as" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Dversal -DARMA72_EL3"
+000-
+000-
+000-Running Make libs in psv_cortexa72_0/libsrc/ipipsu_v2_7/src
+000-
+000-make -C psv_cortexa72_0/libsrc/ipipsu_v2_7/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ASSEMBLER=aarch64-none
+000--elf-as" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Dversal -DARMA72_EL3"
+000-
+000-
+000-In file included from xtime_l.c:30:
+000/vck19065-1-1#pragma message: For the sleep routines, Global timer is being used0-xtime_l.h:65:9: note: #pragma message: For the sleep routines, Global timer is being used
+000-   65 | #pragma message ("For the sleep routines, Global timer is being used")
+000-      |         ^~~~~~~
+000-xsysmonpsv_intr.c: In function 'XSysMonPsv_AlarmEventHandler':
+000/vck190/psv_cortexa72_0/standalone_psv_cortexa72_0/bsp/psv_cortexa72_0/libsrc/sysmonpsv_v2_0/src/xsysmonpsv_intr.c413-1-1comparison of unsigned expression < 0 is always false [-Wtype-limits]1-xsysmonpsv_intr.c:413:33: warning: comparison of unsigned expression < 0 is always false [-Wtype-limits]
+000-  413 |   for(SupplyNum = 0U; SupplyNum < (u32)EndList; SupplyNum++) {
+000-      |                                 ^
+000-In file included from sleep.c:37:
+000/vck19065-1-1#pragma message: For the sleep routines, Global timer is being used0-xtime_l.h:65:9: note: #pragma message: For the sleep routines, Global timer is being used
+000-   65 | #pragma message ("For the sleep routines, Global timer is being used")
+000-      |         ^~~~~~~
+000/vck190173-1-1#warning "There's no DDR_1 in the HW design. MMU translation table marks 32 GB DDR address space as undefined" [-Wcpp]1-translation_table.S:173:2: warning: #warning "There's no DDR_1 in the HW design. MMU translation table marks 32 GB DDR address space as undefined" [-Wcpp]
+000-  173 | #warning "There's no DDR_1 in the HW design. MMU translation table marks 32 GB DDR address space as undefined"
+000-      |  ^~~~~~~
+000/vck190226-1-1#warning "There's no DDR_LOW_2 in the HW design. MMU translation table marks 256 GB DDR address space as undefined" [-Wcpp]1-translation_table.S:226:2: warning: #warning "There's no DDR_LOW_2 in the HW design. MMU translation table marks 256 GB DDR address space as undefined" [-Wcpp]
+000-  226 | #warning "There's no DDR_LOW_2 in the HW design. MMU translation table marks 256 GB DDR address space as undefined"
+000-      |  ^~~~~~~
+000/vck190265-1-1#warning "There's no DDR_LOW_3 in the HW design. MMU translation table marks 734 GB DDR address space as undefined" [-Wcpp]1-translation_table.S:265:2: warning: #warning "There's no DDR_LOW_3 in the HW design. MMU translation table marks 734 GB DDR address space as undefined" [-Wcpp]
+000-  265 | #warning "There's no DDR_LOW_3 in the HW design. MMU translation table marks 734 GB DDR address space as undefined"
+000-      |  ^~~~~~~
+000/vck190319-1-1#warning "There's no DDR_CH_1 in the HW design. MMU translation table marks 1 TB DDR address space as undefined" [-Wcpp]1-translation_table.S:319:2: warning: #warning "There's no DDR_CH_1 in the HW design. MMU translation table marks 1 TB DDR address space as undefined" [-Wcpp]
+000-  319 | #warning "There's no DDR_CH_1 in the HW design. MMU translation table marks 1 TB DDR address space as undefined"
+000-      |  ^~~~~~~
+000/vck190358-1-1#warning "There's no DDR_CH_2 in the HW design. MMU translation table marks 1 TB DDR address space as undefined" [-Wcpp]1-translation_table.S:358:2: warning: #warning "There's no DDR_CH_2 in the HW design. MMU translation table marks 1 TB DDR address space as undefined" [-Wcpp]
+000-  358 | #warning "There's no DDR_CH_2 in the HW design. MMU translation table marks 1 TB DDR address space as undefined"
+000-      |  ^~~~~~~
+000/vck190397-1-1#warning "There's no DDR_CH_3 in the HW design. MMU translation table marks 1 TB DDR address space as undefined" [-Wcpp]1-translation_table.S:397:2: warning: #warning "There's no DDR_CH_3 in the HW design. MMU translation table marks 1 TB DDR address space as undefined" [-Wcpp]
+000-  397 | #warning "There's no DDR_CH_3 in the HW design. MMU translation table marks 1 TB DDR address space as undefined"
+000-      |  ^~~~~~~
+000-In file included from xil_sleeptimer.c:32:
+000/vck19065-1-1#pragma message: For the sleep routines, Global timer is being used0-xtime_l.h:65:9: note: #pragma message: For the sleep routines, Global timer is being used
+000-   65 | #pragma message ("For the sleep routines, Global timer is being used")
+000-      |         ^~~~~~~
+000-Finished building libraries parallelly.
+000-
+000-make --no-print-directory archive
+000-
+000-aarch64-none-elf-ar -r  psv_cortexa72_0/lib/libxil.a psv_cortexa72_0/lib/_sbrk.o psv_cortexa72_0/lib/xiicps.o psv_cortexa72_0/l
+000-ib/xttcps.o psv_cortexa72_0/lib/xuartpsv_hw.o psv_cortexa72_0/lib/xcoresightpsdcc.o psv_cortexa72_0/lib/xusbpsu_sinit.o psv_cor
+000-texa72_0/lib/xipipsu_sinit.o psv_cortexa72_0/lib/xusbpsu_g.o psv_cortexa72_0/lib/xqspipsu_hw.o psv_cortexa72_0/lib/xipipsu_g.o 
+000-psv_cortexa72_0/lib/xscugic_intr.o psv_cortexa72_0/lib/xusbpsu_ep0handler.o psv_cortexa72_0/lib/xcframe_selftest.o psv_cortexa7
+000-2_0/lib/xiicps_hw.o psv_cortexa72_0/lib/xcframe_sinit.o psv_cortexa72_0/lib/xuartpsv_options.o psv_cortexa72_0/lib/xcframe_g.o 
+000-psv_cortexa72_0/lib/xusbpsu_hibernation.o psv_cortexa72_0/lib/xemacps_bdring.o psv_cortexa72_0/lib/xqspipsu_options.o psv_corte
+000-xa72_0/lib/xcsudma_intr.o psv_cortexa72_0/lib/fcntl.o psv_cortexa72_0/lib/xusbpsu_device.o psv_cortexa72_0/lib/xzdma_g.o psv_co
+000-rtexa72_0/lib/xiicps_options.o psv_cortexa72_0/lib/xuartlite.o psv_cortexa72_0/lib/xzdma_sinit.o psv_cortexa72_0/lib/kill.o psv
+000-_cortexa72_0/lib/xil_printf.o psv_cortexa72_0/lib/xscugic.o psv_cortexa72_0/lib/xiicps_slave.o psv_cortexa72_0/lib/xusbpsu_cont
+000-roltransfers.o psv_cortexa72_0/lib/xcanfd_selftest.o psv_cortexa72_0/lib/xuartpsv_intr.o psv_cortexa72_0/lib/xiicps_intr.o psv_
+000-cortexa72_0/lib/xcanfd_sinit.o psv_cortexa72_0/lib/xil_clocking.o psv_cortexa72_0/lib/xcfupmc_g.o psv_cortexa72_0/lib/xipipsu.o
+000- psv_cortexa72_0/lib/xgpiops_sinit.o psv_cortexa72_0/lib/xemacps_g.o psv_cortexa72_0/lib/close.o psv_cortexa72_0/lib/xsdps.o ps
+000-v_cortexa72_0/lib/xgpiops_g.o psv_cortexa72_0/lib/xttcps_selftest.o psv_cortexa72_0/lib/putnum.o psv_cortexa72_0/lib/xuartlite_
+000-stats.o psv_cortexa72_0/lib/xttcps_sinit.o psv_cortexa72_0/lib/inbyte.o psv_cortexa72_0/lib/xemacps_hw.o psv_cortexa72_0/lib/xt
+000-tcps_g.o psv_cortexa72_0/lib/xsysmonpsv_sinit.o psv_cortexa72_0/lib/getpid.o psv_cortexa72_0/lib/xsysmonpsv_g.o psv_cortexa72_0
+000-/lib/xsdps_options.o psv_cortexa72_0/lib/xil_sleeptimer.o psv_cortexa72_0/lib/xipipsu_buf.o psv_cortexa72_0/lib/isatty.o psv_co
+000-rtexa72_0/lib/xil_mem.o psv_cortexa72_0/lib/xuartlite_l.o psv_cortexa72_0/lib/xplatform_info.o psv_cortexa72_0/lib/xrtcpsu_intr
+000-.o psv_cortexa72_0/lib/outbyte.o psv_cortexa72_0/lib/xil_testcache.o psv_cortexa72_0/lib/xil_mmu.o psv_cortexa72_0/lib/lseek.o 
+000-psv_cortexa72_0/lib/xuartlite_sinit.o psv_cortexa72_0/lib/xiicps_sinit.o psv_cortexa72_0/lib/xil-crt0.o psv_cortexa72_0/lib/xsc
+000-ugic_g.o psv_cortexa72_0/lib/xiicps_selftest.o psv_cortexa72_0/lib/xusbpsu_event.o psv_cortexa72_0/lib/xemacps_intr.o psv_corte
+000-xa72_0/lib/xuartpsv.o psv_cortexa72_0/lib/_exit.o psv_cortexa72_0/lib/xgpiops_selftest.o psv_cortexa72_0/lib/xusbpsu_command.o 
+000-psv_cortexa72_0/lib/asm_vectors.o psv_cortexa72_0/lib/xusbpsu_intr.o psv_cortexa72_0/lib/vectors.o psv_cortexa72_0/lib/xcsudma.
+000-o psv_cortexa72_0/lib/xcanfd_config.o psv_cortexa72_0/lib/errno.o psv_cortexa72_0/lib/fstat.o psv_cortexa72_0/lib/xgpiops_hw.o 
+000-psv_cortexa72_0/lib/xil_smc.o psv_cortexa72_0/lib/xcanfd_g.o psv_cortexa72_0/lib/xsdps_card.o psv_cortexa72_0/lib/xqspipsu.o ps
+000-v_cortexa72_0/lib/xil_util.o psv_cortexa72_0/lib/xuartlite_selftest.o psv_cortexa72_0/lib/xzdma_intr.o psv_cortexa72_0/lib/xpmo
+000-npsv.o psv_cortexa72_0/lib/xttcps_options.o psv_cortexa72_0/lib/xtime_l.o psv_cortexa72_0/lib/xiicps_g.o psv_cortexa72_0/lib/xu
+000-artlite_g.o psv_cortexa72_0/lib/xcfupmc.o psv_cortexa72_0/lib/xcanfd_intr.o psv_cortexa72_0/lib/xscugic_selftest.o psv_cortexa7
+000-2_0/lib/xscugic_sinit.o psv_cortexa72_0/lib/xgpiops_intr.o psv_cortexa72_0/lib/xpmonpsv_sint.o psv_cortexa72_0/lib/xil_sleepcom
+000-mon.o psv_cortexa72_0/lib/initialise_monitor_handles.o psv_cortexa72_0/lib/xcsudma_selftest.o psv_cortexa72_0/lib/boot.o psv_co
+000-rtexa72_0/lib/write.o psv_cortexa72_0/lib/xcsudma_sinit.o psv_cortexa72_0/lib/translation_table.o psv_cortexa72_0/lib/xsysmonps
+000-v_intr.o psv_cortexa72_0/lib/xcsudma_g.o psv_cortexa72_0/lib/xsysmonpsv.o psv_cortexa72_0/lib/xusbpsu_ephandler.o psv_cortexa72
+000-_0/lib/xqspipsu_control.o psv_cortexa72_0/lib/unlink.o psv_cortexa72_0/lib/print.o psv_cortexa72_0/lib/xuartpsv_selftest.o psv_
+000-cortexa72_0/lib/xuartpsv_sinit.o psv_cortexa72_0/lib/xil_testio.o psv_cortexa72_0/lib/xil_cache.o psv_cortexa72_0/lib/xemacps.o
+000- psv_cortexa72_0/lib/xqspipsu_sinit.o psv_cortexa72_0/lib/xusbpsu_endpoint.o psv_cortexa72_0/lib/xusbpsu.o psv_cortexa72_0/lib/
+000-xqspipsu_g.o psv_cortexa72_0/lib/xzdma_selftest.o psv_cortexa72_0/lib/xpmonpsv_g.o psv_cortexa72_0/lib/xcfupmc_sinit.o psv_cort
+000-exa72_0/lib/xuartpsv_g.o psv_cortexa72_0/lib/read.o psv_cortexa72_0/lib/xcframe.o psv_cortexa72_0/lib/_open.o psv_cortexa72_0/l
+000-ib/cpputest_time.o psv_cortexa72_0/lib/xcfupmc_selftest.o psv_cortexa72_0/lib/sleep.o psv_cortexa72_0/lib/xscugic_hw.o psv_cort
+000-exa72_0/lib/xiicps_xfer.o psv_cortexa72_0/lib/xsdps_host.o psv_cortexa72_0/lib/xzdma.o psv_cortexa72_0/lib/xrtcpsu.o psv_cortex
+000-a72_0/lib/xrtcpsu_selftest.o psv_cortexa72_0/lib/xil_assert.o psv_cortexa72_0/lib/open.o psv_cortexa72_0/lib/xemacps_control.o 
+000-psv_cortexa72_0/lib/xrtcpsu_sinit.o psv_cortexa72_0/lib/xil_testmem.o psv_cortexa72_0/lib/sbrk.o psv_cortexa72_0/lib/xcanfd.o p
+000-sv_cortexa72_0/lib/xil_exception.o psv_cortexa72_0/lib/xrtcpsu_g.o psv_cortexa72_0/lib/abort.o psv_cortexa72_0/lib/xsdps_sinit.
+000-o psv_cortexa72_0/lib/xgpiops.o psv_cortexa72_0/lib/xsdps_g.o psv_cortexa72_0/lib/xiicps_master.o psv_cortexa72_0/lib/xuartlite
+000-_intr.o psv_cortexa72_0/lib/xemacps_sinit.o
+000-
+000-/proj/xbuilds/2020.3_daily_latest/installs/lin64/Vitis/2020.3/gnu/aarch64/lin/aarch64-none/bin/../x86_64-oesdk-linux/usr/bin/aarch64-xilinx-elf/aarch64-xilinx-elf-ar.real: creating psv_cortexa72_0/lib/libxil.a
+000-Finished building libraries
+000-
+00255-
+10:00:07 Build Finished (took 8s.158ms)
+

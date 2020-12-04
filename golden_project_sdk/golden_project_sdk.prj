@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="golden_project_sdk" location="/scratch/workspacegit3/golden_project_sdk" platform="/scratch/workspacegit3/vck190/export/vck190/vck190.xpfm" platformUID="xilinx:vck190_es::0.0(custom)" systemProject="golden_project_sdk_system" sysConfig="vck190" runtime="cpp" cpu="standalone_psv_cortexa72_0" cpuInstance="psv_cortexa72_0" os="standalone" mssSignature="8d3e3d0f88911d4cb3435e8c31ec4c3e">
+  <configuration name="Debug" id="xilinx.gnu.arm.a53.exe.debug.1542504871">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.arm.a53.exe.release.1098220367" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

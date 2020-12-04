@@ -1,0 +1,5 @@
+/*vck190*/
+the_ROM_image:
+{
+  [destination_cpu=a72-0, exception_level=el-3] <elf>
+}
